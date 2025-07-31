@@ -1,0 +1,2 @@
+def read_pickle():
+	return {'rise_time': 1.0, 'settle_time': 2.0, 'measurement_interval': 4.0, 'sensor_addresses': [[0, 72], [0, 73], [0, 74], [0, 75], [1, 72], [1, 73], [1, 74], [1, 75], [2, 72], [2, 73]], 'test_power': 3.0}

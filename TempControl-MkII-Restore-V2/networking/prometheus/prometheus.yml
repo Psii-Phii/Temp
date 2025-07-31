@@ -1,0 +1,10 @@
+global:
+  scrape_interval: 15s
+  external_labels:
+    monitor: 'temp_monitor'
+
+scrape_configs:
+  - job_name : 'temp_control'
+    scrape_interval: 1s
+    static_configs:
+      - targets: ['localhost:9091']

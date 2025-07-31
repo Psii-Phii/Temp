@@ -1,0 +1,1 @@
+The slave is interesting, as it needs to be given firmware that allows the C bindings to become an I2C slave. First, write the firmware.uf2 file linked in the package\_contents. Then you can actually add the main.py for proper use. The micropython folder only exists for posterity - it is the actual micropython implementation, with an extra C binding for some useful functions.
